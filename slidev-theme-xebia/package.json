@@ -1,0 +1,52 @@
+{
+  "name": "slidev-theme-xebia",
+  "description": "Xebia theme for Slidev",
+  "license": "UNLICENSED",
+  "homepage": "https://xebia.com",
+  "bugs": "https://github.com/xebia/presentation-templates",
+  "version": "1.1.4",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "xebia"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open --port 3040",
+    "screenshot": "slidev export example.md --format png",
+    "export": "slidev export example.md",
+    "format": "slidev format example.md",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.8",
+    "@slidev/types": "^0.48.8",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-vue": "^9.24.0",
+    "playwright-chromium": "^1.42.1",
+    "typescript": "^5.4.3"
+  },
+  "slidev": {
+    "defaults": {
+      "canvasWidth": 960,
+      "colorSchema": "light",
+      "highlighter": "shiki",
+      "titleTemplate": "%s - Xebia",
+      "fonts": {
+        "mono": "Monaco",
+        "sans": "Arial",
+        "serif": "Roboto Slab"
+      },
+      "favicon": "https://xebia.com/wp-content/themes/xebia-theme/images/favicon.png"
+    }
+  }
+}
