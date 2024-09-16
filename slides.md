@@ -11,25 +11,9 @@ Ruben Oostinga
 ---
 
 # Contents
-- Election Theory
+- Real World Examples with Theory
 - Election Software
 - Work council election options
-
-# TODO: add work council law
-    Election systems around the world
-    Tactical voting
-    Electing small parties
-    First-past-the-post voting
-    Contingent vote
-    Two-round system
-    Ranked choice voting
-    Single Non-transferable Vote (SNTV)
-    Single Transferable Vote (STV)
-    Meek STV
-    Instant-runoff voting
-    Party-list proportional representation
-    Paid and open-source election software
-
 
 ---
 
@@ -51,7 +35,6 @@ Ruben Oostinga
 - Single district / District at large
 - Party lists
 
-
 ---
 
 # US Congressional Elections:
@@ -62,8 +45,11 @@ Ruben Oostinga
 
 ## Senate:
 -   Two senators per state
--   Direct elections since 1913 (17th Amendment)
 -   Plurality voting (First-Past-The-Post)
+
+# US Presidential Elections
+- Electoral College votes for the President
+- Most states use Plurality voting (First-Past-The-Post) to determine the vote of their electors
 
 ---
 
@@ -91,17 +77,43 @@ layout: two-cols-header
   - Simple and clear winner, potentially stable governments
   - Often leads to two-party dominance
 - **Drawbacks:**
-  - 'Wasted' votes and disproportionate representation
+  - Disproportionate representation
+  - Multiple similar candidates spoil the vote favoring the opposite candidate
 
 ::right::
 
 ## Proportional Representation
 - **Key Features:**
-  - Multi-member districts; seats distributed by vote percentage
+  - Seats distributed by vote percentage
   - Accurate representation of electorate's preferences
   - Encourages multi-party systems and diverse viewpoints
 - **Drawbacks:**
   - Complex processes and potential for coalition governments
+
+<!--
+
+Of course the US system has the electoral college. 
+The popular vote is already less important than geographical representation
+
+-->
+
+---
+
+# Example of spoiling the vote for the opposition
+
+## US Presidential Election of 1992:
+
+- Candidates: Bill Clinton (Democrat), George H.W. Bush (Republican), and Ross Perot (Independent).
+- Ross Perot, a billionaire businessman, took 19% of the votes arguably contributing to Clinton's victory.
+
+## US Presidential Election of 2000
+- Candidates: George W. Bush (Republican), Al Gore (Democrat), Ralph Nader (Green Party)
+- Ralph Nader took votes from Al Gore ensuring George W. Bush won the elections
+
+
+---
+
+# Examples 
 
 ---
 layout: image
@@ -154,6 +166,20 @@ layout: center
 ---
 <!-- scotland -->
 <Youtube id="P38Y4VG1Ibo"  :width="1000" :height="560" />
+
+---
+
+# Block voting
+multi voting
+Mixed-Member Proportional (MMP):
+This hybrid system combines elements of FPTP and PR. Voters typically have two votes: one for a candidate in their single-member district and one for a party list. The overall composition of the legislature aims to reflect both direct and proportional representation. This method is used in countries like Germany and New Zealand.
+
+---
+
+# Voting software
+
+- [opavote](https://opavote.com), [methods](https://opavote.com/methods/single-transferable-vote)
+- [OpenTally](https://yingtongli.me/opentally/), [demo](https://yingtongli.me/opentally/stv/)
 
 ---
 
