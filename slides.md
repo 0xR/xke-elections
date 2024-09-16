@@ -11,9 +11,14 @@ Ruben Oostinga
 ---
 
 # Contents
-- Real World Examples with Theory
-- Election Software
-- Work council election options
+1. Real World Examples with Theory
+1. Work council election options
+
+---
+layout: center
+---
+
+# Part 1: Real world and some Theory
 
 ---
 
@@ -37,7 +42,7 @@ Ruben Oostinga
 
 ---
 
-# US Congressional Elections:
+# US Elections:
 
 ## House of Representatives
 - Single-member districts
@@ -47,7 +52,7 @@ Ruben Oostinga
 -   Two senators per state
 -   Plurality voting (First-Past-The-Post)
 
-# US Presidential Elections
+## US Presidential Elections
 - Electoral College votes for the President
 - Most states use Plurality voting (First-Past-The-Post) to determine the vote of their electors
 
@@ -58,6 +63,7 @@ Ruben Oostinga
 ## Presidential Elections:
 - Direct election by popular vote
 - Two-round system: If no candidate wins a majority in the first round, the top two candidates face off in a second round
+
 ## Legislative Elections (National Assembly):
 - Single-member districts
 - Two-round system: If no candidate wins an absolute majority in the first round, a second round is held
@@ -74,6 +80,7 @@ layout: two-cols-header
 ## Plurality Voting
 - **Key Features:**
   - Single-member districts; candidate with most votes wins
+  - Districts are represented, not electorate's preferences
   - Simple and clear winner, potentially stable governments
   - Often leads to two-party dominance
 - **Drawbacks:**
@@ -90,18 +97,11 @@ layout: two-cols-header
 - **Drawbacks:**
   - Complex processes and potential for coalition governments
 
-<!--
-
-Of course the US system has the electoral college. 
-The popular vote is already less important than geographical representation
-
--->
-
 ---
 
 # Example of spoiling the vote for the opposition
 
-## US Presidential Election of 1992:
+## US Presidential Election of 1992
 
 - Candidates: Bill Clinton (Democrat), George H.W. Bush (Republican), and Ross Perot (Independent).
 - Ross Perot, a billionaire businessman, took 19% of the votes arguably contributing to Clinton's victory.
@@ -111,9 +111,26 @@ The popular vote is already less important than geographical representation
 - Ralph Nader took votes from Al Gore ensuring George W. Bush won the elections
 
 
+<!--
+Of course the US system has the electoral college. 
+The popular vote is already less important than geographical representation
+-->
+
+---
+layout: center
 ---
 
-# Examples 
+# What would Plurality Voting look like in the Netherlands  
+
+---
+layout: image
+image: /elections-party-by-municipality.jpg
+---
+
+<!--
+- Only 5 parties
+- Clear regional preferences
+-->
 
 ---
 layout: image
@@ -130,10 +147,32 @@ Missing parties
 - PVDD
 - DENK, CU, SGP, VOLT
 
-depending on district boundaries
-SGP -> PVV
-VVD -> GL-PVDA
+gerrymandering:
+- SGP -> PVV
+- VVD -> GL-PVDA
 -->
+
+---
+
+# Do we need party lists for Proportianal Representation for our Workers' Council?
+
+- Plurality Voting is simple, but
+  - Similar candidates spoil the vote for the opposition
+- Larger companies have party lists for workers' councils
+- Proportional Representation is what we want, but we have no parties
+
+---
+layout: center
+---
+
+<!-- ranked choice voting us -->
+<Youtube id="gq7N2hmX9FI"  :width="1000" :height="560" />
+
+---
+layout: center
+---
+<!-- scotland -->
+<Youtube id="P38Y4VG1Ibo"  :width="1000" :height="560" />
 
 ---
 
@@ -155,24 +194,34 @@ Lower house, tweede kamer
 -->
 
 ---
+
+# Other election approaches
+## Block voting
+- Every voter divides the number of seats among the candidates
+- Only one vote per candidate
+- Most votes win the seat
+
+## Mixed-Member Proportional (MMP):
+- Hybrid system combines elements of Plurality Voting and Proportional Representation
+- Voters two votes: 
+  - one for a candidate in their single-member district
+  - one for a party list
+- This method is used in countries like Germany and New Zealand.
+
+## Instant Runoff
+Single Tranferable Vote for 1 Seat
+
+---
 layout: center
 ---
+<!-- kumbaya -->
+<Youtube id="qf7ws2DF-zk?start=315"  :width="1000" :height="560" />
 
-<!-- ranked choice voting us -->
-<Youtube id="gq7N2hmX9FI"  :width="1000" :height="560" />
+<!--
 
----
-layout: center
----
-<!-- scotland -->
-<Youtube id="P38Y4VG1Ibo"  :width="1000" :height="560" />
+They are nice because they want to be 2nd / 3rd for people
 
----
-
-# Block voting
-multi voting
-Mixed-Member Proportional (MMP):
-This hybrid system combines elements of FPTP and PR. Voters typically have two votes: one for a candidate in their single-member district and one for a party list. The overall composition of the legislature aims to reflect both direct and proportional representation. This method is used in countries like Germany and New Zealand.
+-->
 
 ---
 
@@ -180,6 +229,12 @@ This hybrid system combines elements of FPTP and PR. Voters typically have two v
 
 - [opavote](https://opavote.com), [methods](https://opavote.com/methods/single-transferable-vote)
 - [OpenTally](https://yingtongli.me/opentally/), [demo](https://yingtongli.me/opentally/stv/)
+
+---
+layout: center
+---
+
+# Part 2: Workers' Council
 
 ---
 
@@ -321,12 +376,9 @@ layout: two-cols-header
 - Small departments might still lack representation.
 
 ---
+layout: center
+---
 
-# Open Questions
+# What do you think?
+The End
 
-- Actual election method: online or physical?
-- Count votes ourselves or use a service?
-- Online tool requirements: single vote enforcement.
-- Options: Microsoft Forms, Election SaaS.
-- Anonymous voting?
-- Support for recounts?
